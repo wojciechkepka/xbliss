@@ -1,7 +1,7 @@
 let g:colors_name = 'xbliss'
 let g:airline_theme = "xbliss"
 let g:xbliss_colors = {
-  \ "base0"        : "#2d2a3a",
+  \ "base0"        : "#2B2D38",
   \ "base1"        : "#3B374C",
   \ "base2"        : "#48435D",
   \ "base3"        : "#625C7F",
