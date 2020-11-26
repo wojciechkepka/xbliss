@@ -24,6 +24,7 @@ let g:xbliss_colors = {
   \ "teal"         : "#79EC9C",
   \ "light_teal"   : "#9FF2E1",
   \ "pink"         : "#EC79C9",
+  \ "purp"         : "#D579EC",
   \ "none"         : "NONE", }
 
 if &background ==# 'light'
@@ -145,13 +146,13 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   call GHighlight("Comment", "base4", "none")
   call GHighlight("Error", "base0", "red")
   call GHighlight("PreProc", "green", "none")
-  call GHighlight("Special", "light_blue", "none")
-  call GHighlight("Statement", "pink", "none")
+  call GHighlight("Special", "purp", "none")
+  call GHighlight("Statement", "red", "none")
   call GHighlight("Character", "yellow", "none")
   call GHighlight("Directory", "light_purple", "none")
   call GHighlight("Number", "yellow", "none")
   call GHighlight("SpecialComment", "base6", "none")
-  call GHighlight("String", "red", "none")
+  call GHighlight("String", "orange", "none")
   call GHighlightBold("Title", "base7", "none")
   call GHighlightBold("Todo", "base6", "none")
   call GHighlightUnderline("Underlined", "light_blue", "none")
@@ -375,7 +376,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   call GHighlight("LocalType", "light_purple", "none")
   call GHighlight("LibraryType", "purple", "none")
   call GHighlight("FunctionDef", "blue", "none")
-  call GHighlight("LocalFunc", "light_blue", "none")
+  call GHighlight("LocalFunc", "light_purple", "none")
   call GHighlight("LibraryFunc", "blue", "none")
   call GHighlight("IdentifierDef", "blue", "none")
   call GHighlight("LocalIdent", "light_blue", "none")
