@@ -1,4 +1,4 @@
-let s:airlineWarning = '#ec7990'
+let s:airlineWarning = '#ec7990' 
 let s:airlineModified = '#ecaf79'
 let s:airlineInsert = '#af79ec'
 let s:airlineVisual = '#ec79c9'
@@ -7,9 +7,9 @@ let g:airline#themes#xbliss#palette = {}
 
 function! airline#themes#xbliss#refresh()
   " Normal mode
-  let s:N1 = ['#2b2d38', '#8a8ea5', '']
-  let s:N2 = [s:N1[0], '#444758', '']
-  let s:N3 = ['#8a8ea5', '#373947', '']
+  let s:N1 = ['#323547', '#bec1d1', '']
+  let s:N2 = [s:N1[0], '#6d7498', '']
+  let s:N3 = ['#8e93af', '#555b78', '']
   let s:NW = [s:N1[0], s:airlineWarning, '']
   let s:NM = [s:airlineModified, s:N3[1], '']
   let s:NMi = s:NM

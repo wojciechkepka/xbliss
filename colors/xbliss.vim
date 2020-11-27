@@ -1,14 +1,14 @@
 let g:colors_name = 'xbliss'
 let g:airline_theme = "xbliss"
 let g:xbliss_colors = {
-  \ "base0"        : "#2B2D38",
-  \ "base1"        : "#373947",
-  \ "base2"        : "#444758",
-  \ "base3"        : "#6a6f8a",
-  \ "base4"        : "#8a8ea5",
-  \ "base5"        : "#acafbf",
-  \ "base6"        : "#cdcfd8",
-  \ "base7"        : "#eeeff2",
+  \ "base0"        : "#323547",
+  \ "base1"        : "#4a4e68",
+  \ "base2"        : "#555b78",
+  \ "base3"        : "#6d7498",
+  \ "base4"        : "#8e93af",
+  \ "base5"        : "#aeb2c6",
+  \ "base6"        : "#bec1d1",
+  \ "base7"        : "#dfe0e8",
   \ "deep_blue0"   : "#2046DF",
   \ "deep_blue1"   : "#4C6BE6",
   \ "deep_yellow"  : "#fef937",
