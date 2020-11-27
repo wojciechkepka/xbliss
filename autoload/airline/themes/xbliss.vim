@@ -7,9 +7,9 @@ let g:airline#themes#xbliss#palette = {}
 
 function! airline#themes#xbliss#refresh()
   " Normal mode
-  let s:N1 = ['#2d2a31', '#7f789d', '']
-  let s:N2 = [s:N1[0], '#48435d', '']
-  let s:N3 = ['#7f789d', '#3b374c', '']
+  let s:N1 = ['#2b2d38', '#8a8ea5', '']
+  let s:N2 = [s:N1[0], '#444758', '']
+  let s:N3 = ['#8a8ea5', '#373947', '']
   let s:NW = [s:N1[0], s:airlineWarning, '']
   let s:NM = [s:airlineModified, s:N3[1], '']
   let s:NMi = s:NM
