@@ -160,6 +160,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   call GHighlightUndercurl("SpellCap", "none", "none")
   call GHighlightUndercurl("SpellLocal", "none", "none")
   call GHighlightUndercurl("SpellRare", "none", "none")
+  call GHighlight("pythonClass", "pink", "none")
+  call GHighlight("pythonExClass", "pink", "none")
 
   hi! link Terminal Normal
   hi! link TabLine StatusLineNC
